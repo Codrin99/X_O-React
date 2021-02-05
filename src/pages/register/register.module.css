@@ -1,0 +1,102 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+.loginBox{
+    width: 30%;
+    margin-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+	margin-bottom: 1%;
+	}
+
+.container {
+	text-align: center;
+
+	width: 300px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.registerBtn{
+    font-family: Helvetica, sans-serif;
+	font-weight: 100;
+    color: #fff;
+    margin-top: 5%;
+	height: 50px;
+	width: 280px;
+	border: 0;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 0.2em;
+	overflow: hidden;
+	box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
+	z-index: -2;
+}
+
+.fill {
+
+	background-image: linear-gradient(to right, #000000, #858585);
+	background-size: 150% 150%;
+	height: 150px;
+	width: 420px;
+	border-radius: 5px;
+	margin: -70px 0 0 -140px;
+	z-index: -1;
+	transition: all 0.4s ease;
+}
+
+.container:hover .fill {
+	-webkit-animation: gradient 3s ease infinite;
+	-moz-animation: gradient 3s ease infinite;
+	animation: gradient 3s ease infinite;
+}
+.btnText{
+    margin-top: 3.5%;
+    font-family: Helvetica, sans-serif;
+}
+
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

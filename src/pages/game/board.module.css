@@ -1,0 +1,8 @@
+.boardRow:after {
+    clear: both;
+    content: "";
+    display: table;
+   }
+.boardRow{
+    width:470px;
+}
